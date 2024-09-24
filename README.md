@@ -56,15 +56,11 @@ Communities can also help enhance the decision-making process by actively partic
 
 ### Other IBM technology used
 
-INSTRUCTIONS: List any other IBM technology or IBM AI services used in your solution and describe how each component was used. If you can provide details on where these were used in your code, that would help the judges review your submission.
-
 **Additional IBM AI services (Remove any that you did not use)**
 
 - [Watson Speech to Text]([https://cloud.ibm.com/catalog/services/watsonx-assistant](https://www.ibm.com/products/speech-to-text)) - Used to transcribe reported issues
 
 ### Solution architecture
-
-REPLACE THIS EXAMPLE WITH YOUR OWN, OR REMOVE THIS EXAMPLE
 
 Diagram and step-by-step description of the flow of our solution:
 
