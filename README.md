@@ -63,7 +63,7 @@ Diagram and step-by-step description of the flow of our solution:
 
 ## Presentation materials
 
-[![Watch the video]]([https://youtu.be/vOgCOoy_Bx0](https://youtu.be/xv7gweFMBUo))
+[![Watch the video](https://i9.ytimg.com/vi_webp/xv7gweFMBUo/mq2.webp?sqp=CLDjzLcG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgUihDMA8=&rs=AOn4CLC_ISOICYSCVJOJFODjSSfK1Nh9SA)](https://youtu.be/xv7gweFMBUo)
 
 ### Project development roadmap
 
