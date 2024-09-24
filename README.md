@@ -1,14 +1,8 @@
-[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue)](https://developer.ibm.com/callforcode/solutions/projects/get-started/)
-
 _INSTRUCTIONS: This GitHub repository serves as a template and example you can use to create a well documented README for your project for the [2024 Call for Code Global Challenge](https://developer.ibm.com/callforcode/global-challenge/)._
 
-Your required deliverables and project descriptions should be officially submitted to your My Team > Submissions section of the [Call for Code Global Challenge web site](https://compete.callforcode.skillsnetwork.site/competitions/2024-call-for-code-global-challenge), but you can also optionally include them here for completeness, as it is good practice to clearly document your project in your README file. Replace the examples seen here with your own deliverable links.
+These documents act as supplemental materials to the required deliverables officially submitted through the [Call for Code Global Challenge web site](https://compete.callforcode.skillsnetwork.site/competitions/2024-call-for-code-global-challenge), 
 
-Use the **Use this template** button to create a new version of this repository and start entering content for your own Call for Code submission project. Make sure you have [registered for the 2024 Call for Code Global Challenge](https://www.ibm.com/account/reg/signup?formid=urx-52643) to access resources and full project submission instructions. Remove any "INSTRUCTIONS" sections when you are ready to submit your project.
-
-_New to Git and GitHub? This free online course will get you up to speed quickly: [Getting Started with Git and GitHub](https://www.coursera.org/learn/getting-started-with-git-and-github)_.
-
-# Replace this heading with your team/submission name
+# Team Bazzinga
 
 - [Project summary](#project-summary)
   - [The issue we are hoping to solve](#the-issue-we-are-hoping-to-solve)
@@ -31,37 +25,36 @@ _New to Git and GitHub? This free online course will get you up to speed quickly
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
 
-_INSTRUCTIONS: Below are the suggested sections to include in your README file to make sure your project is well documented. You can remove this instruction text._
 
 ## Project summary
 
 ### The issue we are hoping to solve
 
-REPLACE THIS SENTENCE with a short description, 2-3 sentences in length, of the specific sustainability problem your solution is meant to address.
+In a fast paced city like New York, it becomes increasingly challenging for the community to keep up-to-date with flooding alerts and report incidents effectively. Existing solutions are ineffective and not
+very user-friendly, which is an obstacle for both the residents and authorities. Our solution integrates seamlessly into daily routines, providing real-time data analysis and effortlessly notifies stormwater
+incidents by utilizing IBM tools and algorithms.
 
 ### How our technology solution can help
 
-REPLACE THIS SENTENCE with a short description of your team's solution, in about 10 words.
+As the problem with stormwater continues to grow, effective communication and public awareness becomes crucial to address the challenges people affected by floods face each year. The need for practive measures to prevent and mitigate these disasters is more crucial than ever.
 
 ### Our idea
 
-INSTRUCTIONS: Replace this paragraph with a longer description of your solution. In about 500 words, describe your solution in more detail. Include the real-world problem you identified, describe the technological solution you have created, and explain how it’s an improvement over existing solutions. You can supply additional documentation in this source code repository that you link to as well.
+Our approach integrates IBM tools and AI algorithms to provide real-time data and empower residents to report incidents seamlessly, offering speed, ease of use, and accessibility. The approach allows a user to effortlessly submit reports via photos, text, or voice, allowing our platform to pinpoint the issues’ location and notify relevant authorities swiftly. Our proposed solution hopefully will not only address stormwater challenges in NYC but also serve as a model for other regions facing similar issues, ensuring a more resilient and sustainable urban environment worldwide. Our solution at its core is a sophisticated monitoring system, akin to navigation systems in mapping apps, it collect data from various sources like weather forecasts, interactive mapping, and reports from the community. Using advanced algorithms, we then analyze this data to identify areas prone to flooding and other stormwater issues in real time.
 
-More detail is available in our [description document](./docs/DESCRIPTION.md).
+Communities can also help enhance the decision-making process by actively participating in and providing valuable insights and feedback to authorities, ensuring that decisions are informed by local knowledge and needs. To help authorities make more informed decisions, our solution focuses on providing real-time data and managing data through robust data management protocols including pattern and trend identification, organizing and analyzing all while empowering communities through user-friendly tools. By streamlining the reporting process and offering accessible resources, we aim to bridge the gap between complex stormwater information and community understanding, ensuring that residents can also easily digest and engage with data. To make these solutions available and encourage usage, we prioritize accessibility and ease of use. By offering a user-friendly interface, real-time updates, and interactive features such as mapping flooded areas, we aim to engage residents and incentivize their participation in reporting and addressing stormwater issues.
 
 ## Technology implementation
 
 ### IBM watsonx product(s) used
 
-_INSTRUCTIONS: Included here is a list of IBM watsonx products. Remove any products you did not use. Leave only those included in your solution code. In your official submission on the Call for Code Global Challenge web site, you are required to provide details on where and how you used each IBM watsonx product so judges can review your implementation. Remove these instructions._
-
 **Featured watsonx products**
 
-- [watsonx.ai](https://www.ibm.com/products/watsonx-ai) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+- [watsonx.ai](https://www.ibm.com/products/watsonx-ai) - Snap Boosting Machine Classifier Model trained to predict floods
 
-- [watsonx.governance](https://www.ibm.com/products/watsonx-governance) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+- [watsonx Assistant](https://cloud.ibm.com/catalog/services/watsonx-assistant) - Used to classify sentiment and urgency of a reported issue, Summarize Weather and Commute Data
 
-- [watsonx Assistant](https://cloud.ibm.com/catalog/services/watsonx-assistant) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+
 
 ### Other IBM technology used
 
@@ -69,17 +62,7 @@ INSTRUCTIONS: List any other IBM technology or IBM AI services used in your solu
 
 **Additional IBM AI services (Remove any that you did not use)**
 
-- [Watson Machine Learning](https://cloud.ibm.com/catalog/services/watson-machine-learning) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [Language Translator](https://cloud.ibm.com/catalog/services/language-translator) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+- [Watson Speech to Text]([https://cloud.ibm.com/catalog/services/watsonx-assistant](https://www.ibm.com/products/speech-to-text)) - Used to transcribe reported issues
 
 ### Solution architecture
 
@@ -115,47 +98,3 @@ In the future we plan to...
 See below for our proposed schedule on next steps after Call for Code 2024 submission.
 
 ![Roadmap](./images/roadmap.jpg)
-
-## Additional details
-
-_INSTRUCTIONS: The following deliverables are suggested, but **optional**. Additional details like this can help the judges better review your solution. Remove any sections you are not using._
-
-### How to run the project
-
-INSTRUCTIONS: In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
-
-### Live demo
-
-You can find a running system to test at...
-
-See our [description document](./docs/DESCRIPTION.md) for log in credentials.
-
----
-
-_INSTRUCTIONS: You can remove the below section from your specific project README._
-
-## About this template
-
-### Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-### Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-### Authors
-
-<a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
-</a>
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-### License
-
-This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
-
-### Acknowledgments
-
-- Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
