@@ -65,6 +65,8 @@ Diagram and step-by-step description of the flow of our solution:
 
 [![Watch the video](https://i9.ytimg.com/vi_webp/xv7gweFMBUo/mq2.webp?sqp=CLDjzLcG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgUihDMA8=&rs=AOn4CLC_ISOICYSCVJOJFODjSSfK1Nh9SA)](https://youtu.be/xv7gweFMBUo)
 
+- [Prototype](https://www.figma.com/proto/0mPEryrRzlQRXEQy4doGze/Bazzinga-%3A%3A-AI-Innovation-Challenge?page-id=0%3A1&node-id=653-1628&node-type=frame&viewport=-1089%2C-1104%2C0.06&t=l3frIhJOTLAdw0Un-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=653%3A1628)
+
 ### Project development roadmap
 
 The project currently does the following things.
